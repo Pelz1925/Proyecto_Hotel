@@ -21,16 +21,35 @@
     </div>
 
     <div class="budget">
+
         <h2 class="text1">Conoce nuestras tarifas</h2>
-        <section>
-            <input type="date" name="start" id="insert">
-            <input type="date" name="end" id="insert">
-            <select name="room" id="insert">
-                <option value="1">Habitación sencilla</option>
-                <option value="2">Habitación doble</option>
-                <option value="3">Habitación triple</option>
-            </select>
-            <button id="insert">Consultar</button>
+
+        <section class="query">
+
+            <div class="label">
+                <label for="start">Fecha de ingreso</label>
+                <input type="date" name="start" id="insert">
+            </div>
+            
+            <div class="label">
+                <label for="end">Fecha de salida</label>
+                <input type="date" name="end" id="insert">
+            </div>
+
+            <div class="label">
+                <label for="room">Tipo de habitacion</label>
+                <select name="room" id="insert">
+                    <option value="1">Habitación sencilla</option>
+                    <option value="2">Habitación doble</option>
+                    <option value="3">Habitación triple</option>
+                </select>
+            </div>
+            
+            <div class="label">
+                <label for="query">Cotizar</label>
+               <button name="query" id="insert"></button>
+            </div>
+            
         </section>
     </div>
     <footer>
