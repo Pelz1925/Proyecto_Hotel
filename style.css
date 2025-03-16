@@ -5,6 +5,10 @@
     src: url('/Assets/Fonts/PPHatton-Medium.otf');
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 :root {
     --color1: #d0ad48;
     --color2: #17436a;
