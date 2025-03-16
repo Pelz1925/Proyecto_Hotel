@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family: "Hatton";
+    src: url('/Assets/Fonts/PPHatton-Medium.otf');
+}
+
+:root {
+    --color1: #d0ad48;
+    --color2: #17436a;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.images {
+    display: flex;
+    height: 7rem;
+}
+
+.logo {
+    width: 15rem;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: larger;
+    color: var(--color2);
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+}
+
+h1 {
+    font-family: 'Hatton';
+    font-weight: lighter;
+    color: var(--color2);
+}
+
+.rooms {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: var(--color1);
+}
+
+img {
+    border-radius: 15px;
+    border: 2px solid #17436a;
+}
+
+.contur {
+    padding: 5%;
+}
