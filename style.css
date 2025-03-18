@@ -30,9 +30,23 @@ html {
     gap: 1rem;
 }
 
+.contur {
+    gap: 1rem;
+}
+
 .logo {
     width: 15rem;
     border: none;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    height: 2rem;
+    background-color: white;
 }
 
 a {
@@ -80,8 +94,8 @@ h1 {
     align-items: center;
     text-align: center;
     background-color: var(--color1);
-    padding-bottom: 5rem;
     padding-top: 7rem;
+    padding-bottom: 3rem;
 }
 
 img {
